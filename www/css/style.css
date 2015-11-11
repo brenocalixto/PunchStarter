@@ -1,0 +1,235 @@
+body {
+    background-color: #30393A;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.cabecalho_img {
+    width: 100%;
+    height: auto;
+}
+
+.logo_img {
+    max-height: 300px;
+    width: auto;
+    margin: 0 5%;
+}
+
+.botao {
+    padding: 12px 39px 12px 39px;
+    color: #FFF;
+    background-color: #4B6FB8;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #4B6FB8;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.botaoCadastrar {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #FF7200;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border: 1px solid #FF7200;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: white;
+    color: #30393A;
+     text-decoration: none;
+}
+
+.botaoCadastrar:hover {
+    background-color: white;
+    color: #30393A;
+     text-decoration: none;
+}
+
+.input-label {
+    color: white;
+}
+
+form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 20px 20px;
+    background: #959595;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    margin: 0 0 30px 0;
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin: 0 0 30px 0;
+    text-align: center;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #F1F1F1;
+    color: #30393A;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+}
+
+select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #FF7200;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border: 1px solid #FF7200;
+    text-decoration: none;
+}
+
+.btnFacebook {
+    padding: 12px 39px 12px 39px;
+    color: #FFF;
+    background-color: #4B6FB8;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #4B6FB8;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #30393A;
+    opacity: 0.8;
+    border: 1px solid #30393A;
+    text-decoration: none;
+}
+
+.btnFacebook:hover {
+    background-color: #4B6FB8;
+    border-color: #4B6FB8;
+    text-decoration: none;
+}
+
+fieldset {
+    margin-bottom: 30px;
+    border: none;
+}
+
+legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+label.light {
+    font-weight: 300;
+    display: inline;
+}
+
+.number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+}
+
+.light,
+a.light {
+    color: black;
+    font-weight: bold !important;
+}
+
+.link-cadastro {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.link-cadastro a {
+    color: #FF7200;
+    text-decoration: none;
+}
+
+.link-cadastro a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 480px) {
+    form {
+        max-width: 480px;
+    }
+}

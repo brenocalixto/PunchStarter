@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+      
+        
+      <div class="logo">
+            <img class="cabecalho_img" src="img/cabecalho.png">
+      </div>
+      
+       
+    <form action="index.html" method="post">
+      
+        <h1>Meu Cadastro</h1>
+        
+        <fieldset>
+          <!--<legend><span class="number">1</span>Your basic info</legend>-->
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="user_password">
+          
+          <label>Idade:</label>
+          <input type="radio" id="Maior de 18 anos" value="maior18" name="user_age"><label for="under_13" class="light">Maior de 18 anos</label><br>
+          <input type="radio" id="Menor de 18 anos" value="menor18" name="user_age"><label for="over_13" class="light">Menor de 18 anos</label>
+        </fieldset>
+        
+  
+        <button type="submit">Cadastrar</button>
+        
+      </form>
+      
+
+      
+      
+  </body>
+</html>
